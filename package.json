@@ -1,0 +1,23 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js"
+  },
+  "author": "Amit Verma",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi-date-extensions": "^1.2.0",
+    "mongoose": "^5.10.2",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
